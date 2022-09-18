@@ -1,7 +1,10 @@
 #include "Two_arrays.h"
+#include "CString.h"
 
 int main() {
 	int size1, size2;
+	CString obj1, obj2;
+	
 	std::cout << "Enter size of first array\n";
 	std::cin >> size1;
 

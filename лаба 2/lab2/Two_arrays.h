@@ -41,6 +41,12 @@ public:
 		this->array2[this->id2] = tmp;
 	}
 
+	void swap(int id1, int id2) {
+		int tmp = this->array1[id1];
+		this->array1[id1] = this->array2[id2];
+		this->array2[id2] = tmp;
+	}
+
 	void show() {
 		for (int i = 0; i < this->size1; i++)
 		{
@@ -54,17 +60,6 @@ public:
 		}
 		std::cout << '\n';
 	}
-
-	/*Two_arrays() {
-		int size1, size2;
-		std::cout << "Enter size of first array\n";
-		std::cin >> size1;
-
-		std::cout << "Enter size of second array\n";
-		std::cin >> size2;
-
-		Two_arrays(size1, size2);
-	}*/
 
 	Two_arrays(int size1, int size2) {
 		this->array1 = new int[size1];
@@ -90,6 +85,40 @@ public:
 		delete[] this->array1;
 		delete[] this->array2;
 	}
+
+	void operator+(Two_arrays& obj) {
+		int* array1 = new int[this->size1 + obj.size1];
+		int* array2 = new int[this->size2 + obj.size2];
+		for (int i = 0; i < this->size1 + obj.size1; i++)
+		{
+			if (i < this->size1)
+			{
+				array1[i] = this->array1[i];
+			}
+			else
+			{
+				array1[i] = obj.array1[i - this->size1];
+			}
+		}
+
+		for (int i = 0; i < this->size2 + obj.size2; i++)
+		{
+			if (i < this->size2)
+			{
+				array2[i] = this->array2[i];
+			}
+			else
+			{
+				array2[i] = obj.array2[i - this->size2];
+			}
+		}
+	}
+
+	Two_arrays* operator&() {
+		return this;
+	}
+
+
 private:
 	int *array1;
 	int *array2;

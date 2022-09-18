@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CString.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Two_arrays.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CString.h" />
     <ClInclude Include="Two_arrays.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
