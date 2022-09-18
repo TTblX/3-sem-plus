@@ -12,7 +12,7 @@ public:
 		{
 			if (this->array1[i] > max)
 			{
-				max = this->array1[i];
+				max = this->array1[i]; 
 				this->id1 = i;
 			}
 		}
@@ -77,13 +77,28 @@ public:
 		}
 
 		std::cout << "Enter all components of second array\n";
-		for (int i = 0; i < size1; i++)
+		for (int i = 0; i < size2; i++)
 		{
 			std::cin >> this->array2[i];
 		}
 
 		this->size1 = size1;
 		this->size2 = size2;
+	}
+
+	Two_arrays(Two_arrays& obj) {
+		this->array1 = new int[obj.size1];
+		this->array2 = new int[obj.size2];
+		this->size1 = obj.size1;
+		this->size2 = obj.size2;
+		for (int i = 0; i < obj.size1; i++)
+		{
+			this->array1[i] = obj.array1[i];
+		}
+		for (int i = 0; i < obj.size2; i++)
+		{
+			this->array2[i] = obj.array2[i];
+		}
 	}
 
 	~Two_arrays() {
