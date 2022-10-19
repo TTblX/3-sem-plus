@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="untitled" targetName="untitled" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f7aa1cc-c93c-4f72-a225-2b7856c1b1a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/.vs/lab 1/FileContentIndex/a70c909b-e7ea-4289-a33a-e6645f0ee7ed.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/.vs/lab 1/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/.vs/lab 1/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/.vs/lab 1/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/.vs/lab 1/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/.vs/lab 1/v17/ipch/AutoPCH/4012c6d4cc159a4a/TWO_ARRAYS.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/.vs/lab 1/v17/ipch/AutoPCH/4012c6d4cc159a4a/TWO_ARRAYS.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/.vs/lab 1/v17/ipch/AutoPCH/d1b5a768b749d22a/SOURCE.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/.vs/lab 1/v17/ipch/AutoPCH/d1b5a768b749d22a/SOURCE.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/Two_arrays.h" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/Two_arrays.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/Source.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/Source.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/Two_arrays.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/Two_arrays.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/lab 1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/lab 1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/lab 1.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/lab 1.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/lab 1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/lab 1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 1/вариант 12/lab 1/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/FileContentIndex/33341349-a708-45a5-9131-7770795fe453.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/FileContentIndex/457eb994-1e61-48f2-840b-8e8d9eab3a67.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/FileContentIndex/9e99bc9e-b9d5-4ade-afbe-3f4382747557.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/FileContentIndex/cb0df726-24c9-4f94-9ebd-c28f48c4e713.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/v17/ipch/AutoPCH/16fa8a2a76790093/SOURCE.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/v17/ipch/AutoPCH/16fa8a2a76790093/SOURCE.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/v17/ipch/AutoPCH/8fa9529c82b9633b/TWO_ARRAYS.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/v17/ipch/AutoPCH/8fa9529c82b9633b/TWO_ARRAYS.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/v17/ipch/AutoPCH/e601af2796e19e1c/CSTRING.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/.vs/lab2/v17/ipch/AutoPCH/e601af2796e19e1c/CSTRING.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/CString.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/CString.h" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/CString.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/Source.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/Source.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/lab2.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/lab2.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/lab2.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/lab2.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/x64/Debug/lab2.Build.CppClean.log" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/x64/Debug/lab2.Build.CppClean.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/x64/Debug/lab2.log" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/x64/Debug/lab2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../лаба 2/lab2/x64/Debug/lab2.vcxproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../лаба 2/lab2/x64/Debug/lab2.vcxproj.FileListAbsolute.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="1.2" />
+  </component>
+  <component name="ProjectId" id="2G7AizKDYVodk9G7UpzqfohUI6w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="untitled" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled" TARGET_NAME="untitled" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="untitled">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f7aa1cc-c93c-4f72-a225-2b7856c1b1a0" name="Changes" comment="" />
+      <created>1665729379411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665729379411</updated>
+      <workItem from="1665729382791" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

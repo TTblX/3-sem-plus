@@ -1,0 +1,3 @@
+C:/Users/vanish/Desktop/лабы ВУ/лаба 3/lab3clion/cmake-build-debug/CMakeFiles/lab3clion.dir
+C:/Users/vanish/Desktop/лабы ВУ/лаба 3/lab3clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vanish/Desktop/лабы ВУ/лаба 3/lab3clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

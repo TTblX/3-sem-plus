@@ -86,7 +86,7 @@ public:
 		this->size2 = size2;
 	}
 
-	Two_arrays(Two_arrays& obj) {
+	Two_arrays(const Two_arrays& obj) {
 		this->array1 = new int[obj.size1];
 		this->array2 = new int[obj.size2];
 		this->size1 = obj.size1;
@@ -100,6 +100,8 @@ public:
 			this->array2[i] = obj.array2[i];
 		}
 	}
+
+
 
 	~Two_arrays() {
 		delete[] this->array1;

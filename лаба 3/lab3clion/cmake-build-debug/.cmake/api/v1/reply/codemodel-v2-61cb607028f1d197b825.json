@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab3clion",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lab3clion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab3clion-Debug-7f14753b5e172c11474f.json",
+					"name" : "lab3clion",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/vanish/Desktop/\u043b\u0430\u0431\u044b \u0412\u0423/\u043b\u0430\u0431\u0430 3/lab3clion/cmake-build-debug",
+		"source" : "C:/Users/vanish/Desktop/\u043b\u0430\u0431\u044b \u0412\u0423/\u043b\u0430\u0431\u0430 3/lab3clion"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

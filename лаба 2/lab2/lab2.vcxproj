@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CString.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Two_arrays.cpp" />
   </ItemGroup>

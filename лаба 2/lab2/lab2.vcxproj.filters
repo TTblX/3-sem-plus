@@ -21,9 +21,6 @@
     <ClCompile Include="Two_arrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CString.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Two_arrays.h">
