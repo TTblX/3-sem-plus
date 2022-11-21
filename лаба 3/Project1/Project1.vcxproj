@@ -18,6 +18,20 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lab3clion\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lab3clion\Computer.h" />
+    <ClInclude Include="..\lab3clion\Desktop.h" />
+    <ClInclude Include="..\lab3clion\Laptop.h" />
+    <ClInclude Include="..\lab3clion\Monoblock.h" />
+    <ClInclude Include="..\lab3clion\Poratble.h" />
+    <ClInclude Include="..\lab3clion\Tablet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,12 +140,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="Computer.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Computer.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

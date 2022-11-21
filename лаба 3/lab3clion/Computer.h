@@ -1,28 +1,51 @@
-//
-// Created by vanish on 14.10.2022.
-//
-
-#ifndef LAB3CLION_COMPUTER_H
-#define LAB3CLION_COMPUTER_H
-
+#pragma once
+using namespace std;
 
 class Computer {
 private:
     char * brand;
     char * model;
 public:
-    virtual ~Computer();
+    virtual ~Computer() {
+        delete brand;
+        delete model;
+    }
 
-    Computer(char *brand, char *model);
+    Computer() {
+        brand = (char*) "Asus";
+        model = (char*)"TUF Gaming";
+    }
 
-    char *getBrand() const;
+    Computer(Computer* obj) {
+        brand = new char[30];
+        model = new char[30];
+        memcpy_s(brand, 30 * sizeof(char), obj->brand, 30 * sizeof(char));
+        memcpy_s(model, 30 * sizeof(char), obj->model, 30 * sizeof(char));
+    }
 
-    void setBrand(char *brand);
+    Computer(char* brand, char* model) : brand(brand), model(model) {}
 
-    char *getModel() const;
+    char* getBrand() const {
+        return brand;
+    }
 
-    void setModel(char *model);
+    void setBrand(char* brand) {
+        Computer::brand = brand;
+    }
+
+    char* getModel() const {
+        return model;
+    }
+
+    void setModel(char* model) {
+        Computer::model = model;
+    }
+
+    friend ostream& operator<<(ostream& out, Computer obj);
 };
 
-
-#endif //LAB3CLION_COMPUTER_H
+ostream& operator<<(ostream& out, Computer obj) {
+    cout << "Бренд : " << obj.brand << endl
+        << "Модель : " << obj.model << endl;
+    return out;
+}

@@ -4,16 +4,3 @@
 
 #include "Desktop.h"
 
-char *Desktop::getFrame() const {
-    return frame;
-}
-
-void Desktop::setFrame(char *frame) {
-    Desktop::frame = frame;
-}
-
-Desktop::Desktop(char *frame) : frame(frame) {}
-
-Desktop::~Desktop() {
-    delete[] frame;
-}

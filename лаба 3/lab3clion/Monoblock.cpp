@@ -4,12 +4,3 @@
 
 #include "Monoblock.h"
 
-double Monoblock::getDiag() const {
-    return diag;
-}
-
-void Monoblock::setDiag(double diag) {
-    Monoblock::diag = diag;
-}
-
-Monoblock::Monoblock(char *frame, double diag) : Desktop(frame), diag(diag) {}

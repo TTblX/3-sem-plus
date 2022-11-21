@@ -81,12 +81,20 @@ public:
 		this->size2 = size2;
 	}
 
+	Two_arrays(int* array1, int* array2, int size1, int size2) : size1(size1), size2(size2) {
+		this->array1 = new int[size1];
+		this->array2 = new int[size2];
+
+		memcpy(this->array1, array1, size1 * sizeof(int));
+		memcpy(this->array2, array2, size2 * sizeof(int));
+	}
+
 	~Two_arrays() {
 		delete[] this->array1;
 		delete[] this->array2;
 	}
 
-	void operator+(Two_arrays& obj) {
+	Two_arrays& operator+(const Two_arrays& obj) {
 		int* array1 = new int[this->size1 + obj.size1];
 		int* array2 = new int[this->size2 + obj.size2];
 		for (int i = 0; i < this->size1 + obj.size1; i++)
@@ -112,10 +120,27 @@ public:
 				array2[i] = obj.array2[i - this->size2];
 			}
 		}
+		Two_arrays* result = new Two_arrays(array1, array2, this->size1 + obj.size1, this->size2 + obj.size2);
+
+		return * result;
 	}
 
-	Two_arrays* operator&() {
-		return this;
+	Two_arrays& operator&(const Two_arrays& obj) {
+		if (obj.size1 != size1 || size2 != obj.size2)
+		{
+			std::cout << "size of the arrays must be equal\n";
+			return *this;
+		}
+		for (int i = 0; i < size1; i++)
+		{
+			array1[i] = array1[i] & obj.array1[i];
+		}
+		for (int i = 0; i < size2; i++)
+		{
+			array2[i] = array2[i] & obj.array2[i];
+		}
+
+		return *this;
 	}
 
 

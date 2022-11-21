@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Computer">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAIAAAAACAAAAAAAAAAAAAAEQABAAAAAAAAAIAAA=</HashCode>
+      <FileName>C:\Users\vanish\Desktop\лабы ВУ\лаба 3\lab3clion\Computer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Desktop">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCABAAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>C:\Users\vanish\Desktop\лабы ВУ\лаба 3\lab3clion\Desktop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laptop">
+    <Position X="9.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAQAAAAAAAAAAAAQAAABEAAAAA=</HashCode>
+      <FileName>C:\Users\vanish\Desktop\лабы ВУ\лаба 3\lab3clion\Laptop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monoblock">
+    <Position X="7.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAA=</HashCode>
+      <FileName>C:\Users\vanish\Desktop\лабы ВУ\лаба 3\lab3clion\Monoblock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portable">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIQABAAAgAAAAAQAAAAAAAAAAAAAAAAIAAQAAABAA=</HashCode>
+      <FileName>C:\Users\vanish\Desktop\лабы ВУ\лаба 3\lab3clion\Poratble.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tablet">
+    <Position X="11.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAFAAAAQQAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\vanish\Desktop\лабы ВУ\лаба 3\lab3clion\Tablet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

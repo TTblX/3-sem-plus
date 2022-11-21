@@ -2,6 +2,6 @@
 C:\Users\vanish\Desktop\лабы ВУ\лаба 2\lab2\CString.h(14,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\vanish\Desktop\лабы ВУ\лаба 2\lab2\CString.h(18,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\vanish\Desktop\лабы ВУ\лаба 2\lab2\CString.h(78,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vanish\Desktop\лабы ВУ\лаба 2\lab2\Source.cpp(7,6): warning C4101: 'size1': unreferenced local variable
-C:\Users\vanish\Desktop\лабы ВУ\лаба 2\lab2\Source.cpp(7,13): warning C4101: 'size2': unreferenced local variable
+C:\Users\vanish\Desktop\лабы ВУ\лаба 2\lab2\Source.cpp(8,6): warning C4101: 'size1': unreferenced local variable
+C:\Users\vanish\Desktop\лабы ВУ\лаба 2\lab2\Source.cpp(8,13): warning C4101: 'size2': unreferenced local variable
   lab2.vcxproj -> C:\Users\vanish\Desktop\лабы ВУ\лаба 2\lab2\x64\Debug\lab2.exe
