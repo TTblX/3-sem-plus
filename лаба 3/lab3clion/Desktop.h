@@ -40,13 +40,4 @@ public:
         memcpy_s(this->frame, 30 * sizeof(char), frame, 30 * sizeof(char));
         //Desktop::frame = frame;
     }
-
-    friend ostream& operator<<(ostream& out, Desktop obj);
 };
-
-ostream& operator<<(ostream& out, Desktop obj) {
-    cout << "Бренд : " << obj.getBrand() << endl
-        << "Модель : " << obj.getModel() << endl
-        << "Корпус : " << obj.getFrame() << endl;;
-    return out;
-}

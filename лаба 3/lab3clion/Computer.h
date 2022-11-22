@@ -41,6 +41,7 @@ public:
         Computer::model = model;
     }
 
+
     friend ostream& operator<<(ostream& out, Computer obj);
 };
 

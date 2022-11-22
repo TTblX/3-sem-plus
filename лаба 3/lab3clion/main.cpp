@@ -12,7 +12,7 @@ int main() {
 
 	while (true)
 	{
-		system("CLS");
+		//system("CLS");
 
 		cout << "1. Изменить объект класса Monoblock" << endl
 			<< "2. Изменить объект класса Laptop" << endl
@@ -149,18 +149,17 @@ int main() {
 		}
 		case 4:
 		{
-			Monoblock tmp = monoblock;
-			cout << tmp << endl;
+			monoblock.show();
 			break;
 		}
 		case 5:
 		{
-			cout << laptop << endl;
+			laptop.show();
 			break;
 		}
 		case 6:
 		{
-			cout << tablet << endl;
+			tablet.show();
 			break;
 		}
 		default:

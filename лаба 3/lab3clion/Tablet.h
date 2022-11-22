@@ -28,14 +28,11 @@ public:
         Tablet::modem = modem;
     }
 
-    friend ostream& operator<<(ostream& out, Tablet obj);
+    void show() {
+        cout << "Бренд : " << getBrand() << endl
+            << "Модель : " << getModel() << endl
+            << "Диагональ : " << getDiag() << endl
+            << "Заряд батареи: " << getBatteryCharge() << endl
+            << "Модем : " << getModem() << endl;
+    }
 };
-
-ostream& operator<<(ostream& out, Tablet obj) {
-    cout << "Бренд : " << obj.getBrand() << endl
-        << "Модель : " << obj.getModel() << endl
-        << "Диагональ : " << obj.getDiag()  << endl
-        << "Заряд батареи: " << obj.getBatteryCharge() << endl
-        << "Модем : " << obj.getModem() << endl;
-    return out;
-}

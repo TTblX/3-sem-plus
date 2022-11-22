@@ -35,14 +35,11 @@ public:
         }
     }
 
-    friend ostream& operator<<(ostream& out, Laptop obj);
+    void show() {
+        cout << "Бренд : " << getBrand() << endl
+            << "Модель : " << getModel() << endl
+            << "Диагональ : " << getDiag() << endl
+            << "Заряд батареи: " << getBatteryCharge() << endl
+            << "Количество клавиш : " << getNumOfButtons() << endl;
+    }
 };
-
-ostream& operator<<(ostream& out, Laptop obj) {
-    cout << "Бренд : " << obj.getBrand() << endl
-        << "Модель : " << obj.getModel() << endl
-        << "Диагональ : " << obj.getDiag() << endl
-        << "Заряд батареи: " << obj.getBatteryCharge() << endl
-        << "Количество клавиш : " << obj.getNumOfButtons() << endl;
-    return out;
-}

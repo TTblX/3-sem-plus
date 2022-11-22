@@ -13,9 +13,11 @@ public:
         return diag;
     }
 
-    Monoblock(char* frame =(char*) "", double diag = 15.6) : Desktop(frame), diag(diag) {
+    Monoblock(char* frame, double diag = 15.6) : Desktop(frame), diag(diag) {
         checkDiag();
     }
+
+    Monoblock() : Desktop(), diag(15.6) {}
 
     Monoblock(Monoblock* obj) : diag(obj->diag) {
         setBrand(new char[30]);
@@ -40,13 +42,10 @@ public:
         }
     }
 
-    friend ostream& operator<<(ostream& out, Monoblock obj);
+    void show() {
+        cout << "Бренд : " << getBrand() << endl
+            << "Модель : " << getModel() << endl
+            << "Корпус : " << getFrame() << endl
+            << "Диагональ : " << getDiag() << endl;
+    }
 };
-
-ostream& operator<<(ostream& out, Monoblock obj) {
-    cout << "Бренд : " << obj.getBrand() << endl
-        << "Модель : " << obj.getModel() << endl
-        << "Корпус : " << obj.getFrame() << endl
-        << "Диагональ : " << obj.getDiag() << endl;
-    return out;
-}
