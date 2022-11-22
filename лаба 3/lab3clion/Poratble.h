@@ -52,14 +52,4 @@ public:
             diag = 15.6;
         }
     }
-
-    friend ostream& operator<<(ostream& out, Portable obj);
 };
-
-ostream& operator<<(ostream& out, Portable obj) {
-    cout << "Бренд : " << obj.getBrand() << endl
-        << "Модем : " << obj.getModel() << endl
-        << "Диагональ: " << obj.diag << endl
-        << "Заряд батареи " << obj.batteryCharge << endl;
-    return out;
-}

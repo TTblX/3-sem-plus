@@ -40,13 +40,4 @@ public:
     void setModel(char* model) {
         Computer::model = model;
     }
-
-
-    friend ostream& operator<<(ostream& out, Computer obj);
 };
-
-ostream& operator<<(ostream& out, Computer obj) {
-    cout << "Бренд : " << obj.brand << endl
-        << "Модель : " << obj.model << endl;
-    return out;
-}

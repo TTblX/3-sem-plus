@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4\Header.h(69): warning C4715: 'Node<char>::InsertNode': not all control paths return a value
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4\Header.h(69): warning C4715: 'Node<int>::InsertNode': not all control paths return a value
+  lab4.vcxproj -> C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4\x64\Debug\lab4.exe
