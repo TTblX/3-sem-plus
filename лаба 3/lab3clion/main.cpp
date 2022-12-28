@@ -8,6 +8,12 @@ int main() {
 	Monoblock monoblock;
 	Laptop laptop;
 	Tablet tablet;
+
+	Computer* test[3];
+	test[0] = new Monoblock();
+	test[1] = new Laptop();
+	test[2] = new Tablet();
+	delete test[1];
 	int com;
 
 	while (true)

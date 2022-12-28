@@ -1,0 +1,13 @@
+﻿  Source.cpp
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\laba7\Clock.h(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\laba7\Clock.h(3,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\laba7\Clock.h(178,26): warning C4584: 'WallClock': base-class 'Clock' is already a base-class of 'Mechanic'
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\laba7\Clock.h(14): message : see declaration of 'Clock'
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\laba7\Clock.h(111): message : see declaration of 'Mechanic'
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\laba7\Clock.h(205,22): warning C4584: 'Watch': base-class 'Clock' is already a base-class of 'Mechanic'
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\laba7\Clock.h(14): message : see declaration of 'Clock'
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\laba7\Clock.h(111): message : see declaration of 'Mechanic'
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\laba7\Clock.h(234,31): warning C4584: 'FitnessTracker': base-class 'Clock' is already a base-class of 'Electronic'
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\laba7\Clock.h(14): message : see declaration of 'Clock'
+C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\laba7\Clock.h(139): message : see declaration of 'Electronic'
+  laba7.vcxproj -> C:\Users\vanish\Desktop\лабы ВУ\лаба 4\lab4z\x64\Debug\laba7.exe
