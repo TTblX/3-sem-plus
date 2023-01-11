@@ -12,7 +12,8 @@ struct Node
 	Node* right = nullptr;
 	Node* parent = nullptr;
 	explicit Node(T);
-	void WriteNodeToFile(std::fstream& file);
+	void WriteNodeToTextFile(std::fstream& file);
+	void WriteNodeToBinaryFile(std::fstream& file);
 	~Node() = default;
 };
 
@@ -22,12 +23,21 @@ Node<T>::Node(T data) : data(data)
 }
 
 template<class T>
-inline void Node<T>::WriteNodeToFile(std::fstream& file)
+inline void Node<T>::WriteNodeToTextFile(std::fstream& file)
 {
 	file << data << endl;
 
-	if (left != nullptr) left->WriteNodeToFile(file);
-	if (right != nullptr) right->WriteNodeToFile(file);
+	if (left != nullptr) left->WriteNodeToTextFile(file);
+	if (right != nullptr) right->WriteNodeToTextFile(file);
+}
+
+template<class T>
+inline void Node<T>::WriteNodeToBinaryFile(std::fstream& file)
+{
+	file.write(reinterpret_cast<const char*>(&data), sizeof(T));
+
+	if (left != nullptr) left->WriteNodeToBinaryFile(file);
+	if (right != nullptr) right->WriteNodeToBinaryFile(file);
 }
 
 template <class T>

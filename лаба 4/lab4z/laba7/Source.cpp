@@ -13,6 +13,8 @@ int main()
 	setlocale(LC_ALL, "rus");
 	Tree<int> _int_tree;
 	Tree<string> _string_tree;
+	std::string fileName;
+
 	while (1)
 	{
 		try
@@ -64,6 +66,8 @@ int main()
 			<< "3. Добавить элемент в дерево" << endl
 			<< "4. Вывести дерево в текстовый файл" << endl
 			<< "5. Прочитать дерево из текстового файла" << endl
+			<< "6. Вывести дерево в бинарный файл" << endl
+			<< "7. Прочитать дерево из бинарного файл" << endl
 			<< "0. Закрыть программу" << endl;
 		cin >> com;
 		system("CLS");
@@ -228,8 +232,7 @@ int main()
 			break;
 		}
 		case 5:
-		{
-			std::string fileName;
+		{			
 			std::cout << "Input name of file:" << std::endl;
 			std::cin >> fileName;
 			std::cout << "Choose tree type:\n1 - int\n2 - string" << std::endl;
@@ -272,6 +275,91 @@ int main()
 
 			break;
 		}
+		case 6:
+			if (type) // type == 0 -> int, type == 1 -> string
+			{
+				std::cout << "Please, input file name." << std::endl;
+				std::cin >> fileName;
+
+				BinaryFile<string> binaryFile = fileName;
+
+				try
+				{
+					binaryFile.OpenFile();
+				}
+				catch (FileOpenErrorException ex)
+				{
+					rewind(stdin);
+					_EXCEPTION_OUTPUT(ex);
+					return -1;
+				}
+
+				binaryFile.WriteFile(_string_tree);
+
+			}
+			else
+			{
+				std::cout << "Please, input file name." << std::endl;
+				std::cin >> fileName;
+
+				BinaryFile<int> binaryFile = fileName;
+
+				try
+				{
+					binaryFile.OpenFile();
+				}
+				catch (FileOpenErrorException ex)
+				{
+					rewind(stdin);
+					_EXCEPTION_OUTPUT(ex);
+					return -1;
+				}
+
+				binaryFile.WriteFile(_int_tree);
+			}
+			break;
+		case 7:
+			std::cout << "Input name of file:" << std::endl;
+			std::cin >> fileName;
+			std::cout << "Choose tree type:\n1 - int\n2 - string" << std::endl;
+			std::cin >> type;
+
+			if (type == 1) // type == 0 -> int, type == 1 -> string
+			{
+				BinaryFile<int> binaryFile = fileName;
+
+				try
+				{
+					binaryFile.OpenFile();
+				}
+				catch (FileOpenErrorException ex)
+				{
+					rewind(stdin);
+					_EXCEPTION_OUTPUT(ex);
+				}
+
+				binaryFile.ReadFile(_int_tree);
+				type = 0;
+			}
+			else if (type == 2) // type == 0 -> int, type == 1 -> string
+			{
+				BinaryFile<string> binaryFile = fileName;
+
+				try
+				{
+					binaryFile.OpenFile();
+				}
+				catch (FileOpenErrorException ex)
+				{
+					rewind(stdin);
+					_EXCEPTION_OUTPUT(ex);
+				}
+
+				binaryFile.ReadFile(_string_tree);
+				type = 1;
+			}
+
+			break;
 		default:
 			return 0;
 		}
